@@ -11,5 +11,5 @@ class QcloudApi_Module_Ccs extends QcloudApi_Module_Base
      * 接口域名
      * @var string
      */
-    protected $_serverHost = 'ccs.api.qcloud.com';
+    protected $_serverHost = 'ccs.api.tce.fsphere.cn';
 }

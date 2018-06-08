@@ -11,5 +11,5 @@ class QcloudApi_Module_Lb extends QcloudApi_Module_Base
      * 接口域名
      * @var string
      */
-    protected $_serverHost = 'lb.api.qcloud.com';
+    protected $_serverHost = 'lb.api.tce.fsphere.cn';
 }
