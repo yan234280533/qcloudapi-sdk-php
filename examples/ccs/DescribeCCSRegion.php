@@ -6,7 +6,7 @@ require_once dirname(__FILE__).'/../../src/QcloudApi/QcloudApi.php';
 $config = array('SecretId'       => getenv('TENCENTCLOUD_SECRET_ID'),
     'SecretKey'      => getenv('TENCENTCLOUD_SECRET_KEY'),
     'RequestMethod'  => 'GET',
-    'DefaultRegion'  => 'yhcq');
+    'DefaultRegion'  => 'gz');
 
 $api = QcloudApi::load(QcloudApi::MODULE_CCS, $config);
 
